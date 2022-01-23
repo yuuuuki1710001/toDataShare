@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="beginner_tutorials" name="talker" type="image_send"/>
+    <node pkg="beginner_tutorials" name="listener" type="image_recv" output="screen"/>
+</launch>

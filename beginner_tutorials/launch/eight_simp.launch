@@ -1,0 +1,11 @@
+<launch>
+    <node pkg="beginner_tutorials" name="listener" type="listener_8_2" output="screen"/>
+    <node pkg="beginner_tutorials" name="talker1" type="talker"/>
+    <node pkg="beginner_tutorials" name="talker2" type="talker0"/>
+    <node pkg="beginner_tutorials" name="talker3" type="talker1"/>
+    <node pkg="beginner_tutorials" name="talker4" type="talker2"/>
+    <node pkg="beginner_tutorials" name="talker5" type="talker3"/>
+    <node pkg="beginner_tutorials" name="talker6" type="talker4"/>
+    <node pkg="beginner_tutorials" name="talker7" type="talker5"/>
+    <node pkg="beginner_tutorials" name="talker8" type="talker6"/>
+</launch>
